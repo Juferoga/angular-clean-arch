@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  color: gray;
+  font-family: 'monaco' ,'Courier New', Courier, monospace;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h2{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+hr{
+  margin-top: 12px;
+  margin-bottom: 23px;
+}
+
+li{
+  cursor: pointer;
+}

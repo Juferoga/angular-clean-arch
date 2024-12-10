@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="principal">
+    <h2>La lista</h2>
+    <hr>
+    <div class="content">
+      <app-user-list [users]="users" (userSelected)="getUserById($event)"></app-user-list>
+    </div>
+  </div>
+  <div class="sidebar">
+    <h2>Detalles</h2>
+    <hr>
+    <div class="content">
+      <app-user-details [user]="userSelected"></app-user-details>
+    </div>
+  </div>
+</div>

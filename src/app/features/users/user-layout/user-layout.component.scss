@@ -1,0 +1,15 @@
+.container{
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 80% 1fr;
+}
+
+.content, .principal{
+  padding: 20px;
+}
+
+.sidebar{
+  background: black;
+  color: greenyellow;
+  padding: 20px;
+}

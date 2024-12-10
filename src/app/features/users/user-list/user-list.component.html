@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let user of users" (click)="onClick(user)">
+    El usuario {{ user.name }}, tiene el email {{ user.email }}.
+  </li>
+</ul>
+
